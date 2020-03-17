@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Thambi+2&display=swap');
+
+/* Hier werden die Standartwerte der Website übergeben */
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+
+/* Hier werden sämtliche Einstellungen zur Navbar getroffen */
+#navbar{
+  width: 100%;
+  background-color: green;
+}
+
+#navbar ul{
+
+  text-align: center;
+}
+
+#navbar a{
+  list-style-type: none;
+  display:inline-block;
+  padding:10px;
+  color:white;
+}
+
+
+/* Hier wird der Type Text erstellt */
+#Inhalt h1{
+  animation: type 3s steps(26);
+  overflow: hidden;
+  white-space:nowrap;
+  font-family: Consolas;
+  border-right: 4px solid white;
+  color: white;
+  width: 27ch;
+  font-size: 50px;
+
+  margin-left:30px;
+}
+
+@keyframes type {
+  0%{
+    width: 0ch;
+  }
+  100%{
+    width:27ch;
+  }
+
+}
+
+
